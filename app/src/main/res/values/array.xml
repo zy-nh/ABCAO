@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spin">
+    <item>基佬紫</item>
+    <item>蛋碎黄</item>
+    <item>高端黑</item>
+    <item>高能红</item>
+    <item>脑残粉</item>
+    <item>无情白</item>
+    </string-array>
+</resources>

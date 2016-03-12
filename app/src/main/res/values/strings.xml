@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ABC</string>
+
+    <string name="title_section1">弹幕</string>
+    <string name="title_section2">设置</string>
+    <string name="title_section3">屏蔽</string>
+    <string name="title_section4">帮助</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example"></string>
+
+    <string name="action_settings">Settings</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">本应用是一款弹幕聊天软件，能够和地理位置在周围的人进行弹幕聊天。\n
+在弹幕页面发送与接受弹幕\n
+在设置页面更改你发射弹幕的字体与颜色，以及开关接收弹幕功能。\n
+在屏蔽列表添加或删除屏蔽关键词（支持正则匹配），在下方的关键词列表中左右滑动删除关键词。\n
+</string>
+</resources>

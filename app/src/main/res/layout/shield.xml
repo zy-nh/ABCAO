@@ -1,0 +1,44 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6699FF">
+
+    <EditText
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/editText3"
+        android:textSize="27dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="left|top" />
+    <View
+        android:layout_x="0dp"
+        android:layout_y="60dp"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="#000000"/>
+    <Button
+        android:layout_x="295dp"
+        android:layout_y="-10dp"
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:text="添加"
+        android:onClick="onClick2"
+        android:id="@+id/button2"
+        android:layout_gravity="right|top" />
+    <com.example.frag.mytest.MyListView
+        android:id="@+id/MyListView"
+        android:layout_x="0dp"
+        android:layout_y="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="504dp"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#000000"
+        android:dividerHeight="4px"
+        android:layout_gravity="center_horizontal|bottom">
+    </com.example.frag.mytest.MyListView>
+
+</AbsoluteLayout>

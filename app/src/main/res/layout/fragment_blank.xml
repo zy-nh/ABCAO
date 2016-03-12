@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="#6699FF"
+    android:layout_height="match_parent" tools:context="com.example.frag.mytest.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="250dp"
+        android:id="@+id/editText2"
+        android:editable="false"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_gravity="left|center"
+        android:text="字体颜色" />
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="211dp"
+        android:text="字体大小"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:id="@+id/textView"
+        android:editable="false"
+        android:layout_gravity="left|bottom" />
+
+    <SeekBar
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:maxHeight="412px"
+        android:minHeight="412px"
+        android:layout_centerInParent="true"
+        android:paddingLeft="18px"
+        android:paddingRight="18px"
+        android:layout_gravity="right|bottom"
+        android:max="10"
+        android:progress="1"
+
+        android:indeterminate="false" />
+
+    <Spinner
+        android:layout_width="234dp"
+        android:layout_height="250dp"
+        android:id="@+id/spinner"
+        android:entries="@array/spin"
+        android:layout_gravity="right|center" />
+
+    <Switch
+        android:layout_width="248dp"
+        android:layout_height="250dp"
+        android:layout_marginRight="80dp"
+        android:textOff="关"
+        android:textOn="开"
+        android:id="@+id/switch1"
+        android:gravity="center"
+        android:layout_gravity="right|top"
+        android:checked="true" />
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="250dp"
+        android:editable="false"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="开关"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|top" />
+
+</FrameLayout>

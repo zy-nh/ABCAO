@@ -1,0 +1,36 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="#6699FF"
+    android:layout_height="match_parent" tools:context="com.example.frag.mytest.mainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="480dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout"></RelativeLayout>
+    <View
+        android:layout_x="0dp"
+        android:layout_y="525dp"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="#000000"
+        />
+    <EditText
+        android:layout_x="0dp"
+        android:layout_y="528dp"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:id="@+id/editText" />
+    <Button
+        android:layout_x="286dp"
+        android:layout_y="522dp"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:text="发射!"
+        android:onClick="onClick"
+        android:id="@+id/button" />
+</AbsoluteLayout>
